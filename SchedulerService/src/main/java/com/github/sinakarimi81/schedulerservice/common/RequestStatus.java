@@ -1,0 +1,18 @@
+package com.github.sinakarimi81.schedulerservice.common;
+
+public enum RequestStatus {
+    PENDING("pending"),
+    FAILURE("failure"),
+    READY("ready"),
+    DONE("done");
+
+    private final String literal;
+
+    RequestStatus(String literal) {
+        this.literal = literal;
+    }
+
+    public String getLiteral() {
+        return literal;
+    }
+}
