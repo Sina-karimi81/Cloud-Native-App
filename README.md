@@ -10,9 +10,8 @@ This project is a **cloud-native image generation application** built using **Ja
 ## API Endpoints  
 | Method | Endpoint | Description |  
 |--------|------------------------|-----------------------------|  
-| `POST` | `/register-orders` | Register a new order |  
-| `PUT` | `/approve-reject-order` | Approve or reject an order |  
-| `GET` | `/check-order-status/{orderId}` | Check the status of an order |  
+| `POST` | `/submit` | Register an image |  
+| `GET` | `/status` | Check the status of the request |  
 
 ## Technologies Used  
 - **Java 17**, **Spring Boot**  
@@ -23,7 +22,7 @@ This project is a **cloud-native image generation application** built using **Ja
 ## Deployment  
 
 ### Prerequisites  
-- Docker & Docker Compose  
+- Docker
 
 ### Running with Docker Compose  
 1. Clone the repository:  
